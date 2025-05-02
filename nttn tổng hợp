@@ -116,7 +116,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/hea
 getgenv().Team = "Pirates"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RealMatsune/Rolls-Rocye/refs/heads/main/Loading.lua"))()
   end
-     })
      })  AddButton(Tab1o, {
      Name = "bnana fake by tuan anh ios",
     Callback = function()
