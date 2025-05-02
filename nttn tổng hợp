@@ -56,9 +56,16 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
 loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))(Settings)
   end
     })   AddButton(Tab1o, {
-     Name = "xerter v1",
+     Name = "xeter v1",
     Callback = function()
 	  getgenv().Version = "V1"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/Xeter.lua"))()
+  end
+     })   AddButton(Tab1o, {
+     Name = "xeter v2",
+    Callback = function()
+getgenv().Team = "Pirates"
+getgenv().Version = "V2"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/Xeter.lua"))()
   end
      })   AddButton(Tab1o, {
