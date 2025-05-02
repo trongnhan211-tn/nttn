@@ -91,7 +91,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/BapRed/refs/
 loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
   end
      })  AddButton(Tab1o, {
-     Name = "fix lag turbo",
+     Name = "turbo main",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/Main.lua"))()
   end
