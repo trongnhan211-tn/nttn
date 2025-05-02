@@ -85,4 +85,29 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaStupid/Source/main
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/BapRed/refs/heads/main/Bap(Beta)"))()
   end
+     })  AddButton(Tab1o, {
+     Name = "bnana fake",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
+  end
+     })  AddButton(Tab1o, {
+     Name = "fix lag turbo",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/Main.lua"))()
+  end
+     })  AddButton(Tab1o, {
+     Name = "tsou hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
+  end
+    })  AddButton(Tab1o, {
+     Name = "astral up v4",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+  end
+    })  AddButton(Tab1o, {
+     Name = "min gaming",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinAV"))()
+  end
      })
