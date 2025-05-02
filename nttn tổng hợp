@@ -131,7 +131,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/Banan
 ------- BUTTON
     
         AddButton(Tab1o, {
-     Name = "rip indra(đag updeta)",
+     Name = "rip indra",
     Callback = function()
 	 getgenv().Mode = "rip_indra" -- rip_indra, Dough King, Pull Lever, TOTS, Darkbeard
 getgenv().Team = "Marines"
@@ -139,7 +139,7 @@ repeat task.wait() until game:IsLoaded() and game:GetService("Players") and game
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f0952c4a5f3db9e01f4dbd099c1f9b3c.lua"))()
   end
     })  AddButton(Tab1o, {
-     Name = "dough king(đag updeta)",
+     Name = "dough king",
     Callback = function()
 getgenv().Mode = "Dough King" -- rip_indra, Dough King, Pull Lever, TOTS, Darkbeard
 getgenv().Team = "Marines"
@@ -147,7 +147,167 @@ repeat task.wait() until game:IsLoaded() and game:GetService("Players") and game
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f0952c4a5f3db9e01f4dbd099c1f9b3c.lua"))()
   end
      })  AddButton(Tab1o, {
-     Name = "râu đen(đang updeta)",
+     Name = "râu đen(đang cập nhật)",
     Callback = function()
+  end
+     })
+
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Script auto bouty"})
+     
+    
+------- BUTTON
+    
+        AddButton(Tab1o, {
+     Name = "auto bouty cdk-dra(by lion)",
+    Callback = function()
+     repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+getgenv().Team = "Pirates"
+getgenv().Config = {
+    ["Safe Health"] = {50},
+    ["Custom Y Run"] = {
+        Enabled = true,
+        ["Y Run"] = 5000
+    },
+    ["Hunt Method"] = {
+        ["Use Move Predict"] = false,
+        ["Hit and Run"] = false,
+        ["Aimbot"] = true,
+        ["ESP Player"] = true,
+        ["Max Attack Time"] = 60
+    },
+    ["Shop"] = {
+        ["Random Fruit"] = false,
+        ["Store Fruit"] = true,
+        ["Zoro Sword"] = false
+    },
+    ["Setting"] = {
+        ["World"] = 3,
+        ["White Screen"] = false,
+        ["Url"] = "Your_Webhook_Url"
+    },
+    ["Skip"] = {
+        ["Avoid V4"] = false
+    },
+    ["Spam All Skill On V4"] = {
+        Enabled = true,
+        ["Weapons"] = {"Melee", "Sword", "Gun", "Blox Fruit"}
+    }, 
+    Items = {
+        Use = {"Melee", "Sword"},
+        Melee = {
+            Enable = true,
+            Delay = 0.6,
+            Skills = {
+                Z = {Enable = true, HoldTime = 0.3},
+                X = {Enable = true, HoldTime = 0.2},
+                C = {Enable = true, HoldTime = 0.5}
+            }
+        },
+        Sword = {
+            Enable = true,
+            Delay = 0.5,
+            Skills = {
+                Z = {Enable = true, HoldTime = 1},
+                X = {Enable = true, HoldTime = 0}
+            }
+        },
+        Gun = {
+            Enable = true,
+            Delay = 0.05,
+            Skills = {
+                Z = {Enable = true, HoldTime = 0.05},
+                X = {Enable = true, HoldTime = 0.05}
+            }
+        },
+        ["Blox Fruit"] = {
+            Enable = false,
+            Delay = 0.05,
+            Skills = {
+                Z = {Enable = true, HoldTime = 0.05},
+                X = {Enable = true, HoldTime = 0.05},
+                C = {Enable = false, HoldTime = 0.05},
+                V = {Enable = false, HoldTime = 0.05},
+                F = {Enable = false, HoldTime = 0.05}
+            }
+        }
+    }
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/10f7f97cebba24a87808c36ebd345a97.lua"))()
+  end
+    })  AddButton(Tab1o, {
+     Name = "god-cdk(by matsune)",
+    Callback = function()
+getgenv().Config = {
+ ["Team"] = "Pirates",
+ ["Safe Health"] = {40, 50},
+ ["Skip"] = { 
+ ["Fruit"] = {["Enabled"] = true,
+ ["Avoid Fruit"] = {
+ "Portal-Portal", 
+ "Kitsune-Kitsune"
+ }
+ },
+ ["Avoid V4"] = true
+ },
+ ["Hunt Method"] = {
+ ["Use Move Predict"] = true,
+ ["Hit and Run"] = true
+ },
+ ["Spam All Skill On V4"] = {
+ ["Enabled"] = true,
+ ["Weapons"] = {"Melee", "Gun", "Sword", "Blox Fruit"}
+ },
+ ["Chat"] = {
+ ["Enabled"] = false,
+ ["Message"] = {""}
+ },
+ ["Custom Y Run"] = {
+ ["Enabled"] = false,
+ ["Y Run"] = 100
+ },
+ ["Misc"] = {
+ ["Auto Store Fruit"] = true,
+ ["Auto Random Fruit"] = true,
+ ["White Screen"] = false,
+ ["Click Delay"] = 0.1,
+ },
+ ["Items"] = {["Use"] = {"Melee", "Gun", "Sword", "Blox Fruit"},
+ ["Melee"] = {
+ ["Enable"] = true,
+ ["Skills"] = {
+ ["Z"] = {["Enable"] = true, ["HoldTime"] = 1.5},
+ ["X"] = {["Enable"] = true, ["HoldTime"] = 0.1},
+ ["C"] = {["Enable"] = true, ["HoldTime"] = 0.1}
+ }
+ },
+ ["Blox Fruit"] = {
+ ["Enable"] = false,
+ ["Skills"] = {
+ ["Z"] = {["Enable"] = true, ["HoldTime"] = 1.2},
+ ["X"] = {["Enable"] = true, ["HoldTime"] = 0},
+ ["C"] = {["Enable"] = true, ["HoldTime"] = 0},
+ ["V"] = {["Enable"] = false, ["HoldTime"] = 0},
+ ["F"] = {["Enable"] = false, ["HoldTime"] = 0}
+ }
+ },
+ ["Sword"] = {
+ ["Enable"] = true,
+ ["Skills"] = {
+ ["Z"] = {["Enable"] = true, ["HoldTime"] = 0.1},
+ ["X"] = {["Enable"] = true, ["HoldTime"] = 0.1}
+ } 
+ },
+ ["Gun"] = {
+ ["Enable"] = true, 
+ ["Skills"] = {
+ ["Z"] = {["Enable"] = true, ["HoldTime"] = 0.1},
+ ["X"] = {["Enable"] = true, ["HoldTime"] = 0.1}
+ } 
+ }
+ }
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RealMatsune/Rolls-Rocye/refs/heads/main/b164o774u241n032t141y.lua"))()
   end
      })
