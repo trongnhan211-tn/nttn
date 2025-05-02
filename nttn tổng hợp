@@ -61,4 +61,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/re
 	  getgenv().Version = "V1"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/Xeter.lua"))()
   end
+     })   AddButton(Tab1o, {
+     Name = "hiru v1",
+    Callback = function()
+getgenv().Team = "Pirates"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaStupid/Source/main/HiruHub.lua"))()
+  end
      })
